@@ -1,38 +1,84 @@
-.App {
+.container {
+  max-width: 960px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  margin: 20px 0 40px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bookmark-list-item.list-group-item  {
+  padding: 10px 22px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  margin-top: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.watch-button {
+  margin-right: 20px;
+  min-width: 110px;
+}
+
+.delete-button {
+  min-width: 110px;
+}
+
+.spinner-border.spinner-border-sm {
+  margin-right: 5px;
+}
+
+.item-detail {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.date-time {
+  color: #616161;
+  font-size: 16px;
+  font-family: "DM Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","PingFang SC","Microsoft JhengHei",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.session-name {
+  color: #212121;
+  font-weight: bold;
+}
+
+.btn.btn-primary, .btn.btn-danger {
+  border: none;
+  padding: 6px 16px;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: "DM Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","PingFang SC","Microsoft JhengHei",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 700;
+  line-height: 1.75;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.btn.btn-primary { 
+  background-color: #161616;
+}
+
+.btn.btn-danger { 
+  background-color: rgb(216, 12, 36);
+}
+
+.main-title {
+  color: #212121;
+  font-size: 24px;
+  font-family: "DM Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","PingFang SC","Microsoft JhengHei",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 700;
+  line-height: 1.334;
 }
